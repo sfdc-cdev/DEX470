@@ -1,0 +1,10 @@
+<template>
+    <lightning-card title="Old Bears">
+        <template for:each={bears.data} for:item="bear">
+            <div class="slds-p-left_medium" key={bear.Id}>
+                <strong>{bear.Name}</strong> <BR />
+                {bear.Age__c} years old <BR /><BR />
+            </div>
+        </template>
+    </lightning-card>
+</template>
