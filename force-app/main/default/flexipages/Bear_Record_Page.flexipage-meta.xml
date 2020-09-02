@@ -117,7 +117,7 @@
     </flexiPageRegions>
     <flexiPageRegions>
         <componentInstances>
-            <componentName>bearLocation</componentName>
+            <componentName>interactiveMap</componentName>
         </componentInstances>
         <componentInstances>
             <componentName>bearSupervisor</componentName>
